@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TimeTracker</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <script type="module" src="js/script.js"></script>
+</head>
+<body class="bg-veryDarkBlue">
+
+  <main class="flex items-center justify-center lg:h-screen">
+
+    <div class="w-[425px] md:w-[750px]">
+
+    <div class="grid lg:gap-6 grid-cols-1 lg:grid-cols-4 lg:grid-rows-2">
+      <div class="lg:row-span-2">
+
+
+        <div class="bg-darkBlue my-5 text-white rounded-xl ">
+          <div class="p-8 pb-8 bg-blue rounded-xl">
+            <img src="images/image-jeremy.png" alt="" class="w-20 h-20 rounded-full ring-2 ring-purple-300">
+
+            <div class="py-6">
+             <div class="text-sm text-paleBlue">Report for</div>
+              <div class="text-white text-4xl font-light">Jeremy Robson</div>
+            </div>
+          </div>
+
+          <div class="p-8">
+            <div class="text-base text-paleBlue py-2"><a href="#" id="daily">Daily</a></div>
+            <div class="text-base text-blue py-2"><a href="#" id="weekly">Weekly</a></div>
+            <div class="text-base text-blue py-2"><a href="#" id="monthly">Monthly</a></div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div class="bg-lightOrange my-5 h-[240px] rounded-xl relative overflow-hidden">
+        <img src="images/icon-work.svg" alt="" class="absolute right-2 -top-3">
+
+        <div class="rounded-xl bg-darkBlue p-4 absolute -bottom-1 z-10 w-[100%]" id="work"></div>
+      </div>
+
+      <div class=" bg-softBlue my-5 h-[240px] rounded-xl relative overflow-hidden">
+        <img src="images/icon-play.svg" alt="" class="absolute right-2 -top-3">
+
+        <div class="rounded-xl bg-darkBlue p-4 absolute -bottom-1 z-10 w-[100%]" id="play"></div>
+      </div>
+
+      <div class=" bg-lightRed my-5 h-[240px] rounded-xl relative overflow-hidden">
+        <img src="images/icon-study.svg" alt="" class="absolute right-2 -top-3">
+
+        <div class="rounded-xl bg-darkBlue p-4 absolute -bottom-1 z-10 w-[100%]" id="study"></div>
+      </div>
+
+      <div class=" bg-limeGreen my-5 h-[240px] rounded-xl relative overflow-hidden">
+        <img src="images/icon-exercise.svg" alt="" class="absolute right-2 -top-3">
+
+        <div class="rounded-xl bg-darkBlue p-4 absolute -bottom-1 z-10 w-[100%]" id="exercise"></div>
+      </div>
+
+      <div class=" bg-violet my-5 h-[240px] rounded-xl relative overflow-hidden">
+        <img src="images/icon-social.svg" alt="" class="absolute right-2 -top-3">
+
+        <div class="rounded-xl bg-darkBlue p-4 absolute -bottom-1 z-10 w-[100%]" id="social"></div>
+      </div>
+
+      <div class=" bg-softOrange my-5 h-[240px] rounded-xl relative overflow-hidden">
+        <img src="images/icon-self-care.svg" alt=""  class="absolute right-2 -top-3">
+
+        <div class="rounded-xl bg-darkBlue p-4 absolute -bottom-1 z-10 w-[100%]" id="care"></div>
+      </div>
+
+
+
+      
+    </div>
+
+    </div>
+
+  </main>
+</body>
+</html>
